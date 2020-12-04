@@ -1,0 +1,42 @@
+h1 {
+   color:brown ; 
+}
+
+* {
+    border: solid;
+    background:grey;
+}
+.header{
+background:cadetblue;
+display: flex;
+justify-content:space-between
+}
+
+p {
+    color:blue ;
+}
+
+.grid{
+margin: 2px solid #000000
+border-radius 20px;
+}
+
+.origami{
+border-radius: 20px;
+background-color: black;
+padding: 30px;
+margin: 25px;
+width: 310px;
+font-family: fantasy;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
